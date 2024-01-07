@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:banglabeats/core/app_export.dart';
 import 'package:flutter/material.dart';
 
@@ -143,6 +145,8 @@ class CustomButton extends StatelessWidget {
         return ColorConstant.gray80002;
       case ButtonVariant.FillWhiteA700:
         return ColorConstant.whiteA700;
+      case ButtonVariant.FillRedA70001:
+        return ColorConstant.redA70001;
       case ButtonVariant.OutlineGray800:
       case ButtonVariant.OutlineGray80002:
         return null;
@@ -362,6 +366,7 @@ enum ButtonVariant {
   FillGray80002,
   OutlineGray80002,
   FillWhiteA700,
+  FillRedA70001,
 }
 enum ButtonFontStyle {
   UrbanistSemiBold14WhiteA700,

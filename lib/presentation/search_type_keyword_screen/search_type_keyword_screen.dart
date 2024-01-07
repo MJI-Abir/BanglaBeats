@@ -3,6 +3,7 @@ import 'package:banglabeats/core/app_export.dart';
 import 'package:banglabeats/widgets/custom_search_view.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class SearchTypeKeywordScreen extends StatelessWidget {
   TextEditingController searchController = TextEditingController();
 

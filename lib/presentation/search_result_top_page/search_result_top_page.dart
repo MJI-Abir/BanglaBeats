@@ -14,6 +14,7 @@ class _SearchResultTopPageState extends State<SearchResultTopPage>
   bool get wantKeepAlive => true;
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.transparent,

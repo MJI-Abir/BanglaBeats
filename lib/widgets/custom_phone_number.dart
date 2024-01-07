@@ -2,7 +2,6 @@ import 'package:banglabeats/core/app_export.dart';
 import 'package:banglabeats/widgets/custom_text_form_field.dart';
 import 'package:country_pickers/country.dart';
 import 'package:country_pickers/country_pickers.dart';
-import 'package:country_pickers/utils/utils.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable

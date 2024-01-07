@@ -179,9 +179,10 @@ class SignInScreen extends StatelessWidget {
                       child: SizedBox(
                         width: getHorizontalSize(96),
                         child: Divider(
-                            height: getVerticalSize(1),
-                            thickness: getVerticalSize(1),
-                            color: ColorConstant.blueGray100),
+                          height: getVerticalSize(1),
+                          thickness: getVerticalSize(1),
+                          color: ColorConstant.blueGray100,
+                        ),
                       ),
                     ),
                   ],

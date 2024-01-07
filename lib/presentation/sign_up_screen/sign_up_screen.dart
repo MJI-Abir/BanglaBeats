@@ -1,9 +1,5 @@
 import 'package:banglabeats/core/app_export.dart';import 'package:banglabeats/widgets/custom_button.dart';import 'package:banglabeats/widgets/custom_checkbox.dart';import 'package:banglabeats/widgets/custom_text_form_field.dart';import 'package:flutter/material.dart';
 // ignore_for_file: must_be_immutable
-
-// ignore_for_file: must_be_immutable
-
-// ignore_for_file: must_be_immutable
 class SignUpScreen extends StatelessWidget {TextEditingController statusDefaultController = TextEditingController();
 
 TextEditingController statusDefaultOneController = TextEditingController();

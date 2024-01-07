@@ -1,9 +1,5 @@
 import 'package:banglabeats/core/app_export.dart';import 'package:banglabeats/widgets/app_bar/appbar_image.dart';import 'package:banglabeats/widgets/app_bar/appbar_title.dart';import 'package:banglabeats/widgets/app_bar/custom_app_bar.dart';import 'package:banglabeats/widgets/custom_button.dart';import 'package:banglabeats/widgets/custom_checkbox.dart';import 'package:banglabeats/widgets/custom_text_form_field.dart';import 'package:flutter/material.dart';import 'package:banglabeats/presentation/reset_password_successful_dialog/reset_password_successful_dialog.dart';
 // ignore_for_file: must_be_immutable
-
-// ignore_for_file: must_be_immutable
-
-// ignore_for_file: must_be_immutable
 class CreateNewPasswordScreen extends StatelessWidget {TextEditingController passwordController = TextEditingController();
 
 TextEditingController passwordOneController = TextEditingController();

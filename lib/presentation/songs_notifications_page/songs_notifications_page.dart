@@ -15,6 +15,7 @@ class _SongsNotificationsPageState extends State<SongsNotificationsPage>
   bool get wantKeepAlive => true;
   @override
   Widget build(BuildContext context) {
+    super.build(context);
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.transparent,

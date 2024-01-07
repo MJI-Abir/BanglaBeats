@@ -1,3 +1,5 @@
+// ignore_for_file: must_be_immutable
+
 import 'package:banglabeats/core/app_export.dart';
 import 'package:flutter/material.dart';
 
@@ -112,10 +114,10 @@ class CustomTextFormField extends StatelessWidget {
     switch (fontStyle) {
       case TextFormFieldFontStyle.UrbanistRegular14Gray500:
         return TextStyle(
-          color: ColorConstant.gray500,
-          fontSize: getFontSize(
-            14,
-          ),
+                  color: ColorConstant.gray500,
+          // fontSize: getFontSize(
+          //   18,
+          // ),
           fontFamily: 'Urbanist',
           fontWeight: FontWeight.w400,
           height: getVerticalSize(
@@ -210,6 +212,7 @@ class CustomTextFormField extends StatelessWidget {
 enum TextFormFieldShape {
   RoundedBorder16,
 }
+
 enum TextFormFieldPadding {
   PaddingT21_1,
   PaddingAll18,
@@ -217,10 +220,12 @@ enum TextFormFieldPadding {
   PaddingT21,
   PaddingAll6,
 }
+
 enum TextFormFieldVariant {
   None,
   FillGray50,
 }
+
 enum TextFormFieldFontStyle {
   UrbanistSemiBold14Gray900,
   UrbanistRegular14Gray500,
